@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.anchor{
+display: flex;
+ gap: 40px;
+ margin-left: 140px;
+ color:#387ED1 ;
+margin-top: 40px;
+}
+
+.anchor a{
+
+  text-decoration: none;
+  color: #387ED1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+.an a:hover{
+  color: #222;
+}
+.an:hover{
+color: #222;
+
+}
+

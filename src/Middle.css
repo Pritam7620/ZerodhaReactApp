@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+.Middle-cointainer{
+display: flex;
+justify-content: space-between;
+margin: 168px 168px 0 168px;
+word-spacing: 6px;
+}
+
+.Middle-left{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+color: #424242;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.cust{
+font-size: 20px;
+font-weight: 550;
+
+}
+
+.Middle-right img {
+  margin-top: 20px;
+height: 600px;
+cursor: pointer;
+}
+.para p{
+  line-height: 1.8;
+}
+
+span {
+  color: #387ED7;
+ font-weight: 500;
+ cursor: pointer;
+}

@@ -1,0 +1,62 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.social{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 200px 100px 200px;
+
+  line-height: 2.5;
+  
+ 
+}
+
+.social1 img {
+
+  height: 20px;
+  margin-bottom: 10px;
+} 
+.social1 p{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.8;
+  color: #444;
+
+
+}
+.social1 i{
+ align-items: center;
+ margin-top: 20px;
+ margin-left: 10px;
+ font-size: larger;
+ line-height: 1.1;
+   color: #444;
+}
+.social1 i:hover{
+  color: #387ED7;
+}
+
+.store{
+  display: flex;
+  gap: 20px;
+
+}
+.store img{
+  height: 38px;
+  margin-top: 32px;
+cursor: pointer;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #444;
+}
+
+.socials a:hover{
+  color: #387ED7;
+}

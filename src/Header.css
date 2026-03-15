@@ -1,0 +1,45 @@
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Header-Cointainer{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-bottom: 80%;
+top:0px;
+padding: 40px;
+bottom: 0;
+position: fixed;
+height: 20px;
+background-color: #ffffff;
+}
+
+.head-left img{
+  height: 20px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+.head-right{
+  display: flex;
+  gap: 60px;
+   font-size: 16px;
+margin-right: 140px;
+
+}
+.head-right a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+
+.head-right a:hover{
+
+  color: #387Ed7;
+}
