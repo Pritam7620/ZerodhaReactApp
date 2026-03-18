@@ -1,28 +1,29 @@
 
 import "./footer.css"
 
+
 export default function Footer(){
 
   return(
 
     <>
    
-    <div class="social">
-      <div class="social1">
+    <div className="social">
+      <div className="social1">
         <img src="	https://zerodha.com/static/images/logo.svg" alt="zerodha social" />
 
         <p>
           © 2010 - 2025, Zerodha Broking Ltd. <br />
           All rights reserved.
         </p>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin-in"></i>
+        <i className="fa-brands fa-x-twitter"></i>
+        <i className="fa-brands fa-square-facebook"></i>
+        <i className="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-linkedin-in"></i>
         <br />
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-telegram"></i>
+        <i className="fa-brands fa-youtube"></i>
+        <i className="fa-brands fa-whatsapp"></i>
+        <i className="fa-brands fa-telegram"></i>
 
         <div className="store">
 <img src="	https://zerodha.com/static/images/google-play-badge-light.svg" alt="google store" />
@@ -32,7 +33,7 @@ export default function Footer(){
       </div>
 
 
-      <div class="socials">
+      <div className="socials">
         <h3>Account</h3>
         <a href="">Open demat account</a><br />
         <a href="">Minor demat account</a><br />
@@ -43,7 +44,7 @@ export default function Footer(){
        
         <a href="">Referral program</a><br />
       </div>
-      <div class="socials">
+      <div className="socials">
         <h3>Support</h3>
         <a href="">Contact us</a><br />
         <a href="">Support portal</a><br />
@@ -54,7 +55,7 @@ export default function Footer(){
         <a href="">Z-Connect blog</a><br />
       
       </div>
-      <div class="socials">
+      <div className="socials">
         <h3>Company</h3>
         <a href="">About</a><br />
         <a href="">Philosophy</a><br />
@@ -64,7 +65,7 @@ export default function Footer(){
         <a href="">Zerodha.tech</a><br />
         <a href="">Open source</a><br />
       </div>
-      <div class="socials">
+      <div className="socials">
         <h3>Quick links</h3>
         <a href="">Upcoming IPOs</a><br />
         <a href="">Brokerage charges</a><br />
@@ -75,6 +76,7 @@ export default function Footer(){
         <a href="">Sectors</a><br />
       </div>
     </div>
+   
     </>
   )
 
